@@ -1,0 +1,15 @@
+* {
+  background-color: black;
+}
+
+a:hover {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+  a:hover {
+    width: 20%;
+  }
+}
