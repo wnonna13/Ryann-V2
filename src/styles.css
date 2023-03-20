@@ -11,7 +11,7 @@
 h1 {
   color: white;
   margin-top: 100px;
-  text-align: right;
+  text-align: center;
   padding-right: 50px;
   margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
 }
@@ -41,9 +41,5 @@ a:hover {
 @media (max-width: 1000px) {
   a:hover {
     width: 40%;
-  }
-
-  h1 {
-    text-align: center;
   }
 }
