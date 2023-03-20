@@ -36,6 +36,14 @@ a:hover {
 
 /* PORTFOLIO -GRAPHIC DESIGN */
 
+img {
+  opacity: 0.3;
+  transition: all 150ms ease-in-out;
+}
+img:hover {
+  opacity: 0.9;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
