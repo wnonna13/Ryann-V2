@@ -7,11 +7,25 @@
   background-color: var(--dark-background-color);
 }
 
+/* NAV-BAR ISSUES*/
+
 a:hover {
   background-color: var(--dark-hover-color);
-  color: white;
+  color: rgba(179, 177, 177, 0.492);
   border-radius: 5px;
 }
+
+.dropdown-dark {
+  background-color: black;
+  color: gray;
+}
+
+.dropdown-dark:hover {
+  background-color: var(--dark-hover-color);
+  color: white;
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
   a:hover {
