@@ -16,6 +16,24 @@ h1 {
   margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
 }
 
+/* HOME/ INDEX */
+
+.blurb {
+  border: 2px solid red;
+  margin: 150px 30px 0px 30px;
+}
+
+.blurb h1 {
+  border: 2px solid yellow;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.blurb p {
+  text-align: center;
+  color: white;
+}
+
 /* NAV-BAR ISSUES*/
 
 a:hover {
