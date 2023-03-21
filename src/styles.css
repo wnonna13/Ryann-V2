@@ -21,6 +21,8 @@ h1 {
 .blurb {
   border: 2px solid red;
   margin: 150px 30px 0px 30px;
+  width: 50%;
+  height: auto;
 }
 
 .blurb h1 {
@@ -32,6 +34,7 @@ h1 {
 .blurb p {
   text-align: center;
   color: white;
+  padding: 20px;
 }
 
 /* NAV-BAR ISSUES*/
