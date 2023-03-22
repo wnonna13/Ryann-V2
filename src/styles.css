@@ -27,22 +27,28 @@ h1 {
 }
 
 .blurb {
-  border: 2px solid red;
-  margin: 150px 30px 0px 30px;
+  margin: 200px 30px 0px 300px;
   width: 50%;
   height: auto;
 }
 
 .blurb h1 {
-  border: 2px solid yellow;
   margin-top: 0;
   padding: 20px;
+  font-size: 4rem;
 }
 
 .blurb p {
   text-align: center;
   color: white;
   padding: 20px;
+  font-size: 1rem;
+}
+
+.blurb,
+.blurb h1,
+.blurb p {
+  background-color: rgb(0, 0, 0, 1);
 }
 
 /* NAV-BAR ISSUES*/
@@ -78,5 +84,9 @@ img:hover {
 @media (max-width: 1000px) {
   a:hover {
     width: 40%;
+  }
+
+  .blurb {
+    margin: 200px 30px 0px 100px;
   }
 }
