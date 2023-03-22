@@ -53,21 +53,22 @@ h1 {
 
 /* NAV-BAR ISSUES*/
 
-a:hover {
+/*a:hover {
   background-color: var(--dark-hover-color);
   color: rgba(179, 177, 177, 0.492);
   border-radius: 5px;
-}
+} */
 
 .dropdown-dark {
   background-color: black;
   color: gray;
 }
 
+/*
 .dropdown-dark:hover {
   background-color: var(--dark-hover-color);
   color: white;
-}
+} */
 
 /* PORTFOLIO -GRAPHIC DESIGN */
 
@@ -82,9 +83,9 @@ img:hover {
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
-  a:hover {
+  /*a:hover {
     width: 40%;
-  }
+  } */
 
   .blurb {
     margin: 200px 30px 0px 100px;
