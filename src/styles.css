@@ -78,6 +78,11 @@ h1 {
   color: white;
   top: 70%;
   max-width: 40%;
+  padding: 20px;
+}
+
+#about img {
+  opacity: 0.8;
 }
 
 /* PORTFOLIO -GRAPHIC DESIGN */
