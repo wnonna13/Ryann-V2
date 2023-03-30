@@ -70,6 +70,15 @@ h1 {
   color: white;
 } */
 
+/* ABOUT */
+
+#about p {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  top: 80%;
+}
+
 /* PORTFOLIO -GRAPHIC DESIGN */
 
 img {
