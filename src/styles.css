@@ -76,7 +76,8 @@ h1 {
   position: absolute;
   z-index: 10;
   color: white;
-  top: 80%;
+  top: 70%;
+  max-width: 40%;
 }
 
 /* PORTFOLIO -GRAPHIC DESIGN */
