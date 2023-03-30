@@ -78,6 +78,7 @@ h1 {
   color: white;
   top: 70%;
   max-width: 40%;
+  min-width: 300px;
   padding: 20px;
 }
 
