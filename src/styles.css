@@ -64,6 +64,10 @@ h1 {
   color: gray;
 }
 
+.nav-item {
+  margin-left: 20px;
+}
+
 /*
 .dropdown-dark:hover {
   background-color: var(--dark-hover-color);
@@ -72,7 +76,7 @@ h1 {
 
 /* ABOUT */
 
-#about p {
+.about p {
   position: absolute;
   z-index: 10;
   color: white;
@@ -82,8 +86,22 @@ h1 {
   padding: 20px;
 }
 
-#about img {
+.about h1 {
+  border: 2px solid red;
+  margin: 50px;
+}
+
+.about img {
   opacity: 0.8;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.add-cv p {
+  top: 120%;
+  text-align: center;
+  width: auto;
+  height: auto;
 }
 
 /* PORTFOLIO -GRAPHIC DESIGN */
