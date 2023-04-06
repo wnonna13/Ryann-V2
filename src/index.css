@@ -24,7 +24,7 @@
   }
   
   .blurb {
-    margin: 200px 30px 0px 300px;
+    margin: 100px 30px 0px 300px;
     width: 50%;
     height: auto;
   }
@@ -42,11 +42,11 @@
     font-size: 1rem;
   }
   
-  .blurb,
+  /*.blurb,
   .blurb h1,
   .blurb p {
     background-color: rgb(0, 0, 0, 1);
-  }
+  }/*
   
   /* NAV-BAR ISSUES*/
   
@@ -57,7 +57,7 @@
   } */
   
   .dropdown-dark {
-    background-color: black;
+    background-color: pink;
     color: gray;
   }
   
