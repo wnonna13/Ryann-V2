@@ -3,6 +3,10 @@
     --dark-hover-color: rgb(50, 50, 50);
   }
 
+  * {
+    font-family: 'Silkscreen';
+  }
+
 
   /* COMMON TO ALL */
   h1 {
@@ -31,16 +35,17 @@
   }
   
   .blurb h1 {
-    margin-top: 0;
-    font-size: 4rem;
+    font-size: 3rem;
     color: black;
-    font-family: 'Silkscreen';
+    margin-left: 40px;
+
   }
   
   .blurb p {
     text-align: center;
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
+    margin-top: 10px;
   }
   
   /*.blurb,
