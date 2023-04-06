@@ -92,7 +92,18 @@ h1 {
 
 }
 
+.about .col-6 {
+  min-height: 800px;
+}
 
+.about .text {
+  background-color: black;
+}
+
+/*.about .ryann {
+  background-image: url(/images/illustration/redorange.png);
+  background-size: cover;
+}*/
 
 .about h1 {
   margin: 50px;
