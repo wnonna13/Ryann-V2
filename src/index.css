@@ -16,7 +16,7 @@
   /* HOME/ INDEX */
   
   .img-hero-index {
-    background-image: url(/images/illustration/pink_winter.png);
+    background-image: url(/images/illustration/white_temple.png);
     border: 2px solid green;
     min-height: 100vh;
     max-width: 100vw;
@@ -33,11 +33,12 @@
     margin-top: 0;
     padding: 20px;
     font-size: 4rem;
+    color: gray
   }
   
   .blurb p {
     text-align: center;
-    color: white;
+    color: gray;
     padding: 20px;
     font-size: 1rem;
   }
