@@ -3,6 +3,9 @@
     --dark-hover-color: rgb(50, 50, 50);
   }
   
+* {
+  font-family: 'Silkscreen', cursive;
+}
 
   /* COMMON TO ALL */
   h1 {
