@@ -76,11 +76,14 @@ h1 {
 
 /* ABOUT */
 
+.about {
+  padding-top: 200px;
+}
+
 .about p {
-  position: absolute;
   z-index: 10;
   color: white;
-  top: 70%;
+  top: 20%;
   max-width: 40%;
   min-width: 300px;
   padding: 20px;
