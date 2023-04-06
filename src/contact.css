@@ -2,7 +2,7 @@
     --dark-background-color: black;
     --dark-hover-color: rgb(50, 50, 50);
   }
-  
+
 
   /* COMMON TO ALL */
   h1 {
@@ -24,24 +24,24 @@
   }
   
   .blurb {
-    margin: 400px 30px 0px 600px;
+    margin: 200px 30px 0px 600px;
     width: 50%;
     height: auto;
-    text-align: right;
+
   }
   
   .blurb h1 {
     margin-top: 0;
     font-size: 4rem;
     color: black;
-    text-align: right;
+
+    font-family: 'Silkscreen';
   }
   
   .blurb p {
     text-align: center;
     color: black;
     font-size: 2rem;
-    text-align: right;
   }
   
   /*.blurb,
