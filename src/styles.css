@@ -77,20 +77,28 @@ h1 {
 /* ABOUT */
 
 .about {
-  padding-top: 200px;
+  padding-top: 100px;
 }
+
+
+
 
 .about p {
   z-index: 10;
   color: white;
   top: 20%;
-  max-width: 40%;
+  max-width: 140%;
   min-width: 300px;
-  padding: 20px;
+  padding: 50px;
+  text-align: justify;
+
+}
+
+.about img {
+  border: 2px solid red;
 }
 
 .about h1 {
-  border: 2px solid red;
   margin: 50px;
 }
 
@@ -106,6 +114,7 @@ h1 {
   width: auto;
   height: auto;
 }
+
 
 /* PORTFOLIO -GRAPHIC DESIGN */
 
