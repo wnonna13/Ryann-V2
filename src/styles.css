@@ -5,6 +5,7 @@
 
 * {
   background-color: var(--dark-background-color);
+  
 }
 
 /* COMMON TO ALL */
@@ -43,6 +44,7 @@ h1 {
   color: white;
   padding: 20px;
   font-size: 1rem;
+  font-family: sans-serif;
 }
 
 .blurb,
@@ -107,12 +109,17 @@ h1 {
 
 .about h1 {
   margin: 50px;
+  font-family: 'Silkscreen';
 }
 
 .about img {
   opacity: 0.8;
   display: inline-block;
   margin: 0 auto;
+}
+
+.about p {
+  font-family: 'Poppins';
 }
 
 /*.add-cv p {
