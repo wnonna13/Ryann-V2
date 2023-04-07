@@ -137,7 +137,6 @@
   }
   
   .show-on-small .text {
-    background-image: url(/images/illustration/redorange.png);
   }
   
 
@@ -146,7 +145,7 @@
   /* MEDIA QUERIES */
   
 
-  @media (max-width: 720px) {
+  @media (max-width: 910px) {
 
     .show-on-large {
       display: none;
@@ -154,8 +153,9 @@
 
   }
 
-  @media (min-width: 720px) {
+  @media (min-width: 910px) {
     .show-on-small {
       display: none;
     }
   }
+
