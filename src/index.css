@@ -123,11 +123,17 @@
   
   /* MEDIA QUERIES */
   
-  @media (max-width: 1000px) {
-    /*a:hover {
-      width: 40%;
-    } */
-  
+  @media (max-width: 720px) {
 
+    .show-on-large {
+      display: none;
+    }
+
+  }
+
+  @media (min-width: 720px) {
+    .show-on-small {
+      display: none;
+    }
   }
   
