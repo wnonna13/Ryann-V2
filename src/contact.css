@@ -118,13 +118,38 @@
   
   /* MEDIA QUERIES */
   
-  @media (max-width: 1000px) {
-    /*a:hover {
-      width: 40%;
-    } */
+
   
-    .blurb {
-      margin: 200px 30px 0px 100px;
+  @media (max-width: 720px) {
+
+    .show-on-large {
+      display: none;
     }
+
+    h1 {
+      margin-left: 20px;
+      width: 100%;
+    }
+
+    .blurb {
+      margin: 200px 0 0 100px;
+    }
+
+    p {
+      margin-left: 70px;
+    }
+
+    .fa-instagram {
+      margin-left: 80px;
+    }
+
+  }
+
+  @media (min-width: 720px) {
+    .show-on-small {
+      display: none;
+    }
+
+   
   }
   
