@@ -68,53 +68,9 @@
     margin-left: 20px;
   }
   
-  /*
-  .dropdown-dark:hover {
-    background-color: var(--dark-hover-color);
-    color: white;
-  } */
-  
-  /* ABOUT */
-  
-  .about p {
-    position: absolute;
-    z-index: 10;
-    color: white;
-    top: 70%;
-    max-width: 40%;
-    min-width: 300px;
-    padding: 20px;
-  }
-  
-  .about h1 {
-    border: 2px solid red;
-    margin: 50px;
-  }
-  
-  .about img {
-    opacity: 0.8;
-    display: inline-block;
-    margin: 0 auto;
-  }
-  
-  .add-cv p {
-    top: 120%;
-    text-align: center;
-    width: auto;
-    height: auto;
-  }
-  
-  /* PORTFOLIO -GRAPHIC DESIGN */
-  
-  img {
-    opacity: 0.3;
-    transition: all 150ms ease-in-out;
-  }
-  img:hover {
-    opacity: 0.9;
-  }
-  
-  /* PORTFOLIO - ILLUSTRATION */
+ 
+
+
   
   /* MEDIA QUERIES */
   
