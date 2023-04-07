@@ -56,6 +56,11 @@
   .icons i {
     font-size: 2rem;
     color: black;
+    transition: all 150ms ease-in-out;
+  }
+
+  .icons i:hover {
+    color: #46a1c7;
   }
 
   
