@@ -30,22 +30,23 @@
   }
   
   .blurb {
-    margin: 200px 30px 0px 300px;
-    width: 50%;
+    margin-top: 200px;
+    width: 100%;
     height: auto;
   }
   
   .blurb h1 {
     margin-top: 0;
-    padding: 20px;
     font-size: 4rem;
-    color: gray
+    color: gray;
+    padding-left: 40px;
   }
+
   
   .blurb p {
     text-align: center;
     color: gray;
-    padding: 20px;
+    padding-top: 20px;
     font-size: 1rem;
   }
   
