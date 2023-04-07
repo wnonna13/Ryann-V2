@@ -136,6 +136,9 @@
     padding: 15px;
   }
   
+  .show-on-small .text {
+    background-image: url(/images/illustration/redorange.png);
+  }
   
 
   /* PORTFOLIO - ILLUSTRATION */
