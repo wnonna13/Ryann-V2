@@ -15,6 +15,7 @@ h1 {
   text-align: center;
   padding-right: 50px;
   margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
+  font-family: "Major Mono Display", cursive;
 }
 
 /* HOME/ INDEX */
@@ -37,6 +38,7 @@ h1 {
   margin-top: 0;
   padding: 20px;
   font-size: 4rem;
+  font-family: "Major Mono Display", cursive;
 }
 
 .blurb p {
@@ -45,6 +47,8 @@ h1 {
   padding: 20px;
   font-size: 1rem;
   font-family: sans-serif;
+  font-family: "Noto Serif Display";
+  font-weight: 400;
 }
 
 .blurb,

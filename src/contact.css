@@ -43,6 +43,8 @@ h1 {
   color: black;
   font-size: 1rem;
   margin-top: 10px;
+  font-family: "Noto Serif Display";
+  font-weight: 400;
 }
 
 .icons {
