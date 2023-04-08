@@ -4,7 +4,7 @@
 }
 
 * {
-  font-family: "Noto Serif Display", cursive; /* Major Mono Display OR SILKSCREEN? */ /*OR LIBRE BARCODE 39 TEXT - Bungee Hairline is nice but it is too thin */
+  font-family: "Italiana", cursive; /* Major Mono Display OR SILKSCREEN? */ /*OR LIBRE BARCODE 39 TEXT - Bungee Hairline is nice but it is too thin */
 }
 
 /* COMMON TO ALL */
@@ -49,6 +49,7 @@ h1 {
   font-size: 1rem;
   font-weight: 300;
   font-style: italic;
+  font-family: "Noto Serif Display";
 }
 
 /*.blurb,
