@@ -69,6 +69,8 @@ h1 {
 
 .nav-item {
   margin-left: 20px;
+  font-family: "Noto Serif Display";
+  font-weight: 400;
 }
 
 /* MEDIA QUERIES */
