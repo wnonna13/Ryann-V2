@@ -5,8 +5,7 @@
 
 * {
   background-color: var(--dark-background-color);
-  font-family: 'Silkscreen';
-  
+  font-family: "Silkscreen";
 }
 
 /* COMMON TO ALL */
@@ -83,7 +82,6 @@ h1 {
   padding-top: 100px;
 }
 
-
 .about p {
   z-index: 10;
   color: white;
@@ -92,7 +90,6 @@ h1 {
   min-width: 300px;
   padding: 50px;
   text-align: justify;
-
 }
 
 .about .col-6 {
@@ -111,7 +108,7 @@ h1 {
 
 .about h1 {
   margin: 50px;
-  font-family: 'Silkscreen';
+  font-family: "Silkscreen";
 }
 
 .about img {
@@ -121,7 +118,7 @@ h1 {
 }
 
 .about p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 /*.add-cv p {
@@ -135,7 +132,6 @@ h1 {
   margin-left: 35%;
   padding: 15px;
 }
-
 
 /* PORTFOLIO -GRAPHIC DESIGN */
 
