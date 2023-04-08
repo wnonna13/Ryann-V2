@@ -1,158 +1,150 @@
 :root {
-    --dark-background-color: black;
-    --dark-hover-color: rgb(50, 50, 50);
-  }
-  
-  * {
-    background-color: var(--dark-background-color);
-    font-family: 'Silkscreen';
-    
-  }
-  
-  /* COMMON TO ALL */
-  h1 {
-    color: white;
-    margin-top: 100px;
-    text-align: center;
-    padding-right: 50px;
-    margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
-  }
-  
-  /* HOME/ INDEX */
-  
-  .img-hero-index {
-    background-image: url(/images/illustration/pink_winter.png);
-    border: 2px solid green;
-    min-height: 100vh;
-    max-width: 100vw;
-    background-repeat: none;
-  }
-  
-  .blurb {
-    margin: 200px 30px 0px 300px;
-    width: 50%;
-    height: auto;
-  }
-  
-  .blurb h1 {
-    margin-top: 0;
-    padding: 20px;
-    font-size: 4rem;
-  }
-  
-  .blurb p {
-    text-align: center;
-    color: white;
-    padding: 20px;
-    font-size: 1rem;
-    font-family: sans-serif;
-  }
-  
-  .blurb,
-  .blurb h1,
-  .blurb p {
-    background-color: rgb(0, 0, 0, 1);
-  }
-  
-  /* NAV-BAR ISSUES*/
-  
-  /*a:hover {
+  --dark-background-color: black;
+  --dark-hover-color: rgb(50, 50, 50);
+}
+
+* {
+  background-color: var(--dark-background-color);
+  font-family: "Major Mono Display", cursive;
+}
+
+/* COMMON TO ALL */
+h1 {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  padding-right: 50px;
+  margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
+}
+
+/* HOME/ INDEX */
+
+.img-hero-index {
+  background-image: url(/images/illustration/pink_winter.png);
+  border: 2px solid green;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-repeat: none;
+}
+
+.blurb {
+  margin: 200px 30px 0px 300px;
+  width: 50%;
+  height: auto;
+}
+
+.blurb h1 {
+  margin-top: 0;
+  padding: 20px;
+  font-size: 4rem;
+}
+
+.blurb p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.blurb,
+.blurb h1,
+.blurb p {
+  background-color: rgb(0, 0, 0, 1);
+}
+
+/* NAV-BAR ISSUES*/
+
+/*a:hover {
     background-color: var(--dark-hover-color);
     color: rgba(179, 177, 177, 0.492);
     border-radius: 5px;
   } */
-  
-  .dropdown-dark {
-    background-color: black;
-    color: gray;
-  }
-  
-  .nav-item {
-    margin-left: 20px;
-  }
-  
-  /*
+
+.dropdown-dark {
+  background-color: black;
+  color: gray;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+/*
   .dropdown-dark:hover {
     background-color: var(--dark-hover-color);
     color: white;
   } */
-  
-  /* ABOUT */
-  
-  .about {
-    padding-top: 100px;
-  }
-  
-  
-  .about p {
-    z-index: 10;
-    color: white;
-    top: 20%;
-    max-width: 140%;
-    min-width: 300px;
-    padding: 50px;
-    text-align: justify;
-  
-  }
-  
-  .about .col-6 {
-    min-height: 800px;
-    padding: 0px 40px 0px 40px;
-  }
-  
-  .about .text {
-    background-color: black;
-  }
-  
-  /*.about .ryann {
+
+/* ABOUT */
+
+.about {
+  padding-top: 100px;
+}
+
+.about p {
+  z-index: 10;
+  color: white;
+  top: 20%;
+  max-width: 140%;
+  min-width: 300px;
+  padding: 50px;
+  text-align: justify;
+}
+
+.about .col-6 {
+  min-height: 800px;
+  padding: 0px 40px 0px 40px;
+}
+
+.about .text {
+  background-color: black;
+}
+
+/*.about .ryann {
     background-image: url(/images/illustration/redorange.png);
     background-size: cover;
   }*/
-  
-  .about h1 {
-    margin: 50px;
-    font-family: 'Silkscreen';
-  }
-  
-  .about img {
-    opacity: 0.8;
-    display: inline-block;
-    margin: 0 auto;
-  }
-  
-  .about p {
-    font-family: 'Poppins';
-  }
-  
-  /*.add-cv p {
+
+.about h1 {
+  margin: 50px;
+  font-family: "Silkscreen";
+}
+
+.about img {
+  opacity: 0.8;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.about p {
+  font-family: "Poppins";
+}
+
+/*.add-cv p {
     top: 120%;
     text-align: center;
     width: auto;
     height: auto;
   } */
-  
-  .about button {
-    margin-left: 35%;
-    padding: 15px;
+
+.about button {
+  margin-left: 35%;
+  padding: 15px;
+}
+
+/* PORTFOLIO - ILLUSTRATION */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 910px) {
+  .show-on-large {
+    display: none;
   }
-  
+}
 
-  /* PORTFOLIO - ILLUSTRATION */
-  
-  /* MEDIA QUERIES */
-  
-
-  @media (max-width: 910px) {
-
-    .show-on-large {
-      display: none;
-    }
-
+@media (min-width: 910px) {
+  .show-on-small {
+    display: none;
   }
-
-  @media (min-width: 910px) {
-    .show-on-small {
-      display: none;
-    }
-  }
-
+}
