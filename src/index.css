@@ -4,18 +4,23 @@
 }
 
 * {
-  font-family: "Italiana", cursive; /* Major Mono Display OR SILKSCREEN? */ /*OR LIBRE BARCODE 39 TEXT - Bungee Hairline is nice but it is too thin */
+  font-family: "Major Mono Display", cursive; /* Major Mono Display OR SILKSCREEN? */ /*OR LIBRE BARCODE 39 TEXT - Bungee Hairline is nice but it is too thin */
 }
 
 /* COMMON TO ALL */
 h1 {
-  font-weight: 300;
+  font-weight: 700;
   color: white;
   margin-top: 100px;
   text-align: center;
   padding-right: 50px;
   margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
   /*font-family: 'Libre Barcode 39 Text' */
+  letter-spacing: 10px;
+}
+
+nav .name {
+  letter-spacing: 4px;
 }
 
 /* HOME/ INDEX */
@@ -50,6 +55,13 @@ h1 {
   font-weight: 300;
   font-style: italic;
   font-family: "Noto Serif Display";
+  font-weight: 400;
+}
+
+.nav-link {
+  font-family: "Noto Serif Display";
+  font-style: italic;
+  font-weight: 400;
 }
 
 /*.blurb,
