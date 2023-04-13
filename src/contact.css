@@ -74,6 +74,10 @@ h1 {
   font-weight: 400;
 }
 
+nav .name {
+  letter-spacing: 4px;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 720px) {

@@ -74,6 +74,10 @@ h1 {
   margin-left: 20px;
 }
 
+nav .name {
+  letter-spacing: 4px;
+}
+
 /*
   .dropdown-dark:hover {
     background-color: var(--dark-hover-color);

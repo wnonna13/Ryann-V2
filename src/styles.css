@@ -15,6 +15,7 @@ h1 {
   text-align: center;
   padding-right: 50px;
   margin-bottom: 0px; /*NOTE: THIS CONTROLS WHITE LINES*/
+  font-weight: 700;
 }
 
 /* HOME/ INDEX */
@@ -70,6 +71,9 @@ h1 {
   margin-left: 20px;
 }
 
+nav .name {
+  letter-spacing: 4px;
+}
 /*
 .dropdown-dark:hover {
   background-color: var(--dark-hover-color);
